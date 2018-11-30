@@ -1,0 +1,32 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#main {
+    margin: auto;
+}
+
+.brand-logo img {
+    width: auto;
+    height: 60px;
+}
+
+.sidenav {
+    background-image: linear-gradient(#000, #eee);
+}
+.sidenav li {
+    padding: 20px;
+}
+
+ ul .dropdown-content > li > a{
+    color: #000;
+}
+
+footer ul li{
+    padding: 20px;
+    display: inline-block;
+}
+
+footer ul li i {
+    font-size: 1.5em;
+}
