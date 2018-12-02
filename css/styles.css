@@ -1,5 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    min-width: 300px;
 }
 
 #main {
@@ -19,7 +20,10 @@ body {
 }
 
  ul .dropdown-content > li > a{
-    color: #000;
+    color: #eee;
+}
+ul .dropdown-content > li {
+background-color: #000;
 }
 
 footer ul li{
@@ -29,4 +33,12 @@ footer ul li{
 
 footer ul li i {
     font-size: 1.5em;
+}
+
+.carousel-item img {
+height: 500px;
+}
+
+.carousel .carousel-slider {
+margin-top: -20px;
 }
