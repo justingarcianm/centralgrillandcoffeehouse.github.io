@@ -21,7 +21,7 @@
 </head>
 
 <body>
-    <div id="main">
+    <div id="main" class="scrollspy">
         <!-- dropdown navs -->
         <ul id="home" class="dropdown-content">
             <li><a href="home.html#about">About Us</a></li>
@@ -67,17 +67,17 @@
                 </div>
             </div>
         </nav>
-        <!-- parallax -->
 
         <div class="carousel carousel-slider">
-            <a class="carousel-item" href="#one!"><img src="https://lorempixel.com/800/400/food/1"></a>
-            <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/2"></a>
-            <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/3"></a>
-            <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4"></a>
+            <a class="carousel-item" href="#one!"><img src="http://centralgrillandcoffeehouse.com/wp-content/uploads/2016/08/slide5.jpg"></a>
+            <a class="carousel-item" href="#two!"><img src="http://centralgrillandcoffeehouse.com/wp-content/uploads/2016/08/slide6.jpg"></a>
+            <a class="carousel-item" href="#three!"><img src="http://centralgrillandcoffeehouse.com/wp-content/uploads/2016/08/slide1.jpg"></a>
+            <a class="carousel-item" href="#four!"><img src="http://centralgrillandcoffeehouse.com/wp-content/uploads/2016/08/slider3.jpg"></a>
+            <a class="carousel-item" href="#five!"><img src="http://centralgrillandcoffeehouse.com/wp-content/uploads/2016/08/slide4.jpg"></a>
         </div>
     </div>
     <br>
-    <div class="container scrollspy" id="about">
+    <div class="container scrollspy section " id="about">
         <div class="row">
             <div class="col m4">
                 <img src="http://centralgrillandcoffeehouse.com/wp-content/uploads/2016/08/central-grill.jpg" class="responsive-img">
@@ -97,8 +97,13 @@
             </div>
         </div>
 
+        <!-- Back to top -->
+        <div class="right">
+            <a class="btn-floating pulse" href="#main" id="totTop"><i class="material-icons dp48">arrow_upward</i></a>
+        </div>
+
     </div>
-    <div class="container scrollspy" id="coffee">
+    <div class="container scrollspy section" id="coffee">
         <div class="row">
             <div class="col m8">
                 <h2>Coffee Shop</h2>
@@ -121,7 +126,7 @@
         </div>
 
     </div>
-    <div class="container scrollspy" id="dine">
+    <div class="container scrollspy section" id="dine">
         <div class="row">
             <div class="col m4">
                 <img src="http://centralgrillandcoffeehouse.com/wp-content/uploads/2016/08/dine-in.jpg" class="responsive-img">
@@ -170,8 +175,6 @@
     </div>
 
     <div class="carousel carousel-slider center">
-        <div class="carousel-fixed-item center">
-        </div>
         <div class="carousel-item white black-text" href="#one!">
             <h2>Yelp</h2>
             <div class="container">
