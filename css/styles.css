@@ -42,3 +42,7 @@ height: 500px;
 .carousel .carousel-slider {
 margin-top: -20px;
 }
+
+h2 {
+    margin: 0;
+}
