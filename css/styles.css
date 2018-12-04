@@ -1,12 +1,23 @@
+/* All */
 body {
     font-family: 'Open Sans', sans-serif;
     min-width: 300px;
 }
-
 #main {
     margin: auto;
 }
+.section:nth-child(odd) {
+    background-color: #eee;
+    border-radius: 5px;
+}
 
+a.btn-floating.pulse {
+    position: fixed;
+    bottom: 1px;
+    background-color: gray;
+
+}
+/* Nav */
 .brand-logo img {
     width: auto;
     height: 60px;
@@ -26,6 +37,7 @@ ul .dropdown-content > li {
 background-color: #000;
 }
 
+/* footer */
 footer ul li{
     padding: 20px;
     display: inline-block;
@@ -34,7 +46,7 @@ footer ul li{
 footer ul li i {
     font-size: 1.5em;
 }
-
+/* Home */
 .carousel-item img {
 height: 500px;
 }
@@ -42,18 +54,9 @@ height: 500px;
 .carousel .carousel-slider {
 margin-top: -20px;
 }
-
 h2 {
     margin: 0;
 }
-
-a.btn-floating.pulse {
-    position: fixed;
-    bottom: 1px;
-    background-color: gray;
-
-}
-
 #about {
     margin-top: 40px;
 }
@@ -61,10 +64,9 @@ a.btn-floating.pulse {
 #dine {
     margin-bottom: 40px;
 }
-
+/* Menu */
 #breakfast em{
     font-size: 0.5em;
 }
-.section:nth-child(odd) {
-    background-color: #eee;
-}
+
+/* Contact */
